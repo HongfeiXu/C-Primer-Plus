@@ -1,6 +1,7 @@
+//C源代码的例子
 #include <stdio.h>
 
-int main(void)
+int main (void)
 {
     int dogs;
 
