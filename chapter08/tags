@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+bad_limits	c8_7_checking.c	/^bool bad_limits (int begin, int end, int low ,int high);$/;"	p	file:	signature:(int begin, int end, int low ,int high)
+bad_limits	c8_7_checking.c	/^bool bad_limits (int begin, int end, int low, int high)$/;"	f	signature:(int begin, int end, int low, int high)
+count	c8_8_menuette.c	/^void count (void);$/;"	p	file:	signature:(void)
+display	c8_5_showchar1.c	/^void display (char cr, int lines, int width)$/;"	f	signature:(char cr, int lines, int width)
+display	c8_5_showchar1.c	/^void display (char cr, int lines, int width);$/;"	p	file:	signature:(char cr, int lines, int width)
+display	c8_6_showchar2.c	/^void display (char cr, int lines, int width)$/;"	f	signature:(char cr, int lines, int width)
+display	c8_6_showchar2.c	/^void display (char cr, int lines, int width);$/;"	p	file:	signature:(char cr, int lines, int width)
+get_choice	c8_8_menuette.c	/^char get_choice (void)$/;"	f	signature:(void)
+get_choice	c8_8_menuette.c	/^char get_choice (void);$/;"	p	file:	signature:(void)
+get_first	c8_8_menuette.c	/^char get_first (void)$/;"	f	signature:(void)
+get_first	c8_8_menuette.c	/^char get_first (void);$/;"	p	file:	signature:(void)
+get_int	c8_7_checking.c	/^int get_int (void)$/;"	f	signature:(void)
+get_int	c8_7_checking.c	/^int get_int (void);$/;"	p	file:	signature:(void)
+get_int	c8_8_menuette.c	/^char get_int (void);$/;"	p	file:	signature:(void)
+main	c8_1_echo.c	/^int main (void)$/;"	f	signature:(void)
+main	c8_2_echo_eof.c	/^int main (void)$/;"	f	signature:(void)
+main	c8_3_file_eof.c	/^int main (void)$/;"	f	signature:(void)
+main	c8_4_guess.c	/^int main (void)$/;"	f	signature:(void)
+main	c8_4_guess02.c	/^int main (void)$/;"	f	signature:(void)
+main	c8_4_guess03.c	/^int main (void)$/;"	f	signature:(void)
+main	c8_5_showchar1.c	/^int main (void)$/;"	f	signature:(void)
+main	c8_6_showchar2.c	/^int main (void)$/;"	f	signature:(void)
+main	c8_7_checking.c	/^int main (void)$/;"	f	signature:(void)
+sum_squares	c8_7_checking.c	/^double sum_squares (int a, int b)$/;"	f	signature:(int a, int b)
+sum_squares	c8_7_checking.c	/^double sum_squares (int a, int b);$/;"	p	file:	signature:(int a, int b)
