@@ -15,6 +15,7 @@ int main (void)
 	float salary;
 	float tax;
 	float base_pay;
+    _Bool suc_in;       // 是否成功输入
 	
 	printf ("*****************************************************************\n");
 	printf ("Enter the number corresponding to the desired pay rate or action:\n");
@@ -25,8 +26,23 @@ int main (void)
 	printf ("5) quit\n");
 	printf ("*****************************************************************\n");
     
-	while (scanf ("%d", &level) == 1)		// 当输入的不是数字时，退出循环，未完成题目要求，用 isdigit ？？？ 
+	while (1)	
 	{
+        suc_in = (scanf ("%d", &level) ==  1);
+        if (!suc_in)        // 若未能成功输入，（输入的不是数字）则提示输入，进行下次循环
+        {
+            while (getchar () != '\n')
+                continue;           // consume the left input
+	        printf ("*****************************************************************\n");
+        	printf ("Enter the number corresponding to the desired pay rate or action!\n");
+        	printf ("1) $%2.2f/hr             ", BASE_PAY_1);
+        	printf ("2) $%2.2f/hr\n", BASE_PAY_2);
+        	printf ("3) $%2.2f/hr            ", BASE_PAY_3);
+        	printf ("4) $%2.2f/hr\n", BASE_PAY_4);
+        	printf ("5) quit\n");
+	        printf ("*****************************************************************\n");
+            continue;       // 跳过本次循环剩余部分，开始下次循环
+        }
 		if (level == 5)
 		{
 			printf ("Bye!\n");
@@ -59,11 +75,14 @@ int main (void)
 				continue;				// 跳出本次循环，进行下次循环 
 		}
 		printf ("Enter your work time in hour:\n");
-		if (scanf ("%f", &time) != 1)
-		{
-			printf ("You should enter a number!!\nBye!\n");
-			break;
-		}
+        while (scanf ("%f", &time) != 1)
+        {
+            while (getchar () != '\n')
+                continue;
+            printf ("You should enter a number!\n");
+        }
+        while (getchar () != '\n')
+            continue;       // consume the left input
 		if (time > LIMIT)
 			time += (time - LIMIT) * OVERTIME;
 		salary = base_pay * time;				// 未交税的工资
@@ -83,7 +102,6 @@ int main (void)
 		printf ("5) quit\n");
 		printf ("*****************************************************************\n");	
 	}
-    printf ("\nBye!\n");
 
 	return 0;
 }
