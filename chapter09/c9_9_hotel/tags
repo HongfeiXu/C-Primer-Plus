@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DISCOUNT	hotel.h	7;"	d
+HOTEL1	hotel.h	3;"	d
+HOTEL2	hotel.h	4;"	d
+HOTEL3	hotel.h	5;"	d
+HOTEL4	hotel.h	6;"	d
+QUIT	hotel.h	2;"	d
+STARS	hotel.h	8;"	d
+getnights	hotel.c	/^int getnights (void)$/;"	f	signature:(void)
+getnights	hotel.h	/^int getnights (void);$/;"	p	signature:(void)
+main	usehotel.c	/^int main (void)$/;"	f	signature:(void)
+menu	hotel.c	/^int menu (void)$/;"	f	signature:(void)
+menu	hotel.h	/^int menu (void);$/;"	p	signature:(void)
+showprice	hotel.c	/^void showprice (double rate, int nights)$/;"	f	signature:(double rate, int nights)
+showprice	hotel.h	/^void showprice (double rate, int nights);$/;"	p	signature:(double rate, int nights)

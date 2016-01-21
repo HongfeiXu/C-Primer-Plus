@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDRESS	c9_1_lethead1.c	10;"	d	file:
+ADDRESS	c9_2_lehead2.c	5;"	d	file:
+NAME	c9_1_lethead1.c	9;"	d	file:
+NAME	c9_2_lehead2.c	4;"	d	file:
+PLACE	c9_1_lethead1.c	11;"	d	file:
+PLACE	c9_2_lehead2.c	6;"	d	file:
+SPACE	c9_2_lehead2.c	8;"	d	file:
+WIDTH	c9_1_lethead1.c	12;"	d	file:
+WIDTH	c9_2_lehead2.c	7;"	d	file:
+imin	c9_3_lesser.c	/^int imin (int n, int m)$/;"	f	signature:(int n, int m)
+imin	c9_3_lesser.c	/^int imin (int, int);$/;"	p	file:	signature:(int, int)
+main	c9_1_lethead1.c	/^int main (void)$/;"	f	signature:(void)
+main	c9_2_lehead2.c	/^int main (void)$/;"	f	signature:(void)
+main	c9_3_lesser.c	/^int main (void)$/;"	f	signature:(void)
+show_n_char	c9_2_lehead2.c	/^void show_n_char (char ch, int num)$/;"	f	signature:(char ch, int num)
+show_n_char	c9_2_lehead2.c	/^void show_n_char (char ch, int num);$/;"	p	file:	signature:(char ch, int num)
+starbar	c9_1_lethead1.c	/^void starbar (void)$/;"	f	signature:(void)
+starbar	c9_1_lethead1.c	/^void starbar (void);    \/* 声明函数原型 *\/$/;"	p	file:	signature:(void)
