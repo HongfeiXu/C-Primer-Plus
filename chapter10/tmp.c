@@ -1,15 +1,12 @@
 #include <stdio.h>
 int main (void)
 {
+    int (* ptr)[2];
+    int torf[2][2] = { {12}, {14, 16} };
+    ptr = torf;
 
-    int n = 5;
-    double x;
+    printf ("**ptr= %d, **(ptr + 1) = %d\n", **ptr, **(ptr + 1));
 
-    int * pi = &n;
-    double * pd = &x;
-    pd = pi;
-
-    printf ("%f\n", *pd);
     return 0;
 }
 
