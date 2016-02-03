@@ -15,7 +15,7 @@ int main (void)
 	while (i < LIM && gets (temp))
 	{
 		if (temp[0] != 'q')
-			printf("%s doesn't begin with q!\n", temp[0]);
+			printf("%s doesn't begin with q!\n", qwords[0]);
 		else
 		{
 			strncpy (qwords[i], temp, TARGSIZE - 1);
