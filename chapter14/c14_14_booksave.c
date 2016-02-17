@@ -62,6 +62,7 @@ int main (void)
 		for (index = 0; index < count; index++)
 			printf ("%s by %s: $%.2f\n", 
 				library[index].title, library[index].author, library[index].value);
+        // fwrite () 一次写入多个块
 		fwrite (&library[filecount], size, count - filecount, pbooks);
 	}
 	else
